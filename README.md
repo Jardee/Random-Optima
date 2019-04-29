@@ -1,2 +1,2 @@
-# Optima
-Zadania/Projekty związane z systemem Comarch ERP Optima
+#Zapytania SQL
+  -Zapytania do baz optimy i rzeczy pomocne
