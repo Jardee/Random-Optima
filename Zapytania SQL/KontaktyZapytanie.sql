@@ -3,7 +3,7 @@
 USE CDN;
 SELECT 
 	CDN.CRMKontakty.CRK_NumerPelny AS 'Numer Dokumentu',
-	CDN.operatorzy.Ope_Kod AS 'Opiekun',
+	CDN_KNF_Konfiguracjaf.cdn.Operatorzy.Ope_Kod AS 'Opiekun',
 	CDN.CRMKontakty.CRK_Temat AS 'Temat',
 	CDN.Kontrahenci.Knt_Kod AS 'Kontrahent',
 	CDN.CRMKontakty.CRK_Opis AS 'Opis',
