@@ -28,7 +28,7 @@ CDN.Kategorie.Kat_KodOgolny AS 'Kod Ogólny Kategorii',
 CDN.Kategorie.Kat_KodSzczegol AS 'Kod Szczegłowy Kategorii'
 
 FROM CDN.SrsZlecenia 
-	LEFT JOIN 
+	LEFT OUTER JOIN 
 		CDN.Kontrahenci ON CDN.SrsZlecenia.SrZ_PodmiotId = CDN.Kontrahenci.Knt_KntId
 	LEFT OUTER JOIN  
 		CDN.Kategorie ON CDN.SrsZlecenia.SrZ_KatID = CDN.Kategorie.Kat_KatID
